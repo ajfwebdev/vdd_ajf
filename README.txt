@@ -2,12 +2,14 @@ AJF Version of the Vagrant Drupal Development Project
 
 Find the official Drupal.org version here: https://www.drupal.org/project/vdd
 
+This started as a copy of the Dev version (8.x-1.x-dev) of the project as it existed on July 19th 2016. 
+
 What's different in the AJF version -
 
 1) After cloning this repo to your machine, the outer, enclosing directory
    will be called 'vdd_ajf'. Rename that as you like. 
 
-2) I removed the Mailcatcher application because on July 18th 2016, when I
+2) I removed the Mailcatcher application because on July 19th 2016, when I
    tested the D.O. VDD project, the chef provisioning failed because of a
    Ruby version mismatch between Mailcatcher and VDD. I decided I could live
    without Mailcatcher.
