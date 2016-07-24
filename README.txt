@@ -1,3 +1,20 @@
+AJF Version of the Vagrant Drupal Development Project
+
+Find the official Drupal.org version here: https://www.drupal.org/project/vdd
+
+What's different in the AJF version -
+
+1) There is no outer, enclosing directory, like the 'vdd' directory you get
+   when you extract the tar.gz file downloaded from D.O. So before you clone
+   this version, create a directory for it to live in, cd into that directory,
+   then clone this repo.
+
+2) I removed the Mailcatcher application because on July 18th 2016, when I
+   tested the D.O. VDD project, the chef provisioning failed because of a
+   Ruby version mismatch between Mailcatcher and VDD. I decided I could live
+   without Mailcatcher.
+
+
 Vagrant Drupal Development
 --------------------------
 
