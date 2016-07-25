@@ -14,6 +14,8 @@ What's different in the AJF version -
    Ruby version mismatch between Mailcatcher and VDD. I decided I could live
    without Mailcatcher.
 
+3) Added chef.channel and chef.version config to Vagrantfile. This was to use Chef version 12.10.24,   which resolved a 404 error in provisioning.
+
 
 Vagrant Drupal Development
 --------------------------
