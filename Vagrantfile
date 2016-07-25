@@ -59,6 +59,8 @@ Vagrant.configure("2") do |config|
   config.vm.box_download_insecure
   # Customize provisioner.
   config.vm.provision :chef_solo do |chef|
+    chef.channel = "stable"
+    chef.version = "12.10.24"
     chef.json = config_json
     chef.custom_config_path = "chef/solo.rb"
     chef.data_bags_path = "chef/data_bags"
